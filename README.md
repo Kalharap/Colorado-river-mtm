@@ -1,7 +1,7 @@
 # Colorado River Streamflow Reconstruction
 
-This repository contains Python scripts and data used to reconstruct natural streamflow of the **Colorado River** using multiple statistical and machine learning methods.  
-The analyses were conducted as part of my PhD research at the University of Nevada, Las Vegas.
+This repository contains Python scripts and data used to reconstruct the natural streamflow of the **Colorado River** using multiple statistical and machine learning methods.  
+
 
 ---
 
@@ -31,7 +31,7 @@ Each method produces a complete time series reconstruction from **1490 to 1997**
 
 ---
 
-## 📂 File List
+##  File List
 
 | File | Description |
 |------|--------------|
