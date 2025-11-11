@@ -5,7 +5,7 @@ The analyses were conducted as part of my PhD research at the University of Neva
 
 ---
 
-## 🌊 Overview
+##  Overview
 
 Three different approaches were applied to reconstruct annual streamflow using tree-ring chronologies and principal components:
 
@@ -17,14 +17,14 @@ Each method produces a complete time series reconstruction from **1490 to 1997**
 
 ---
 
-## 📈 Spectral and Scaling Analysis
+##  Spectral and Scaling Analysis
 
 - The file **`mtm_loglog_psd.py`** estimates the **power-law spectral slope (β)** of the reconstructed streamflow using the **Multitaper Method (MTM)** with a 3×2π taper (time–bandwidth product NW=3).  
 - The resulting β quantifies the long-memory and scaling behavior of streamflow variability.
 
 ---
 
-## 🤖 Gaussian Process Model
+## Gaussian Process Model
 
 - The **`gaussian_process_reconstruction.py`** (planned or included) uses **Gaussian Process Regression (GPR)** to model uncertainty in the reconstructions.  
 - This approach captures probabilistic trends and confidence intervals for each reconstructed year, allowing comparison with deterministic methods.
@@ -45,7 +45,7 @@ Each method produces a complete time series reconstruction from **1490 to 1997**
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 All scripts are written in **Python 3.9+** and use the following main libraries:
 ```bash
