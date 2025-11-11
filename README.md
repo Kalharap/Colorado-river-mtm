@@ -44,13 +44,3 @@ Each method produces a complete time series reconstruction from **1490 to 1995**
 | `reconstructed_streamflow.xlsx` | Data file containing annual reconstructed flows (1490–1997) |
 
 ---
-
-## Requirements
-
-All scripts are written in **Python 3.9+** and use the following main libraries:
-```bash
-numpy
-pandas
-matplotlib
-scipy
-scikit-learn
