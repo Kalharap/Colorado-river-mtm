@@ -1,17 +1,19 @@
 # Colorado River Streamflow Reconstruction
 
-This repository contains Python scripts and data used to reconstruct the natural streamflow of the **Colorado River** using multiple statistical and machine learning methods. And, predict decadal streamflow of Colorado river using Gaussian Process Algorithm. 
+This repository contains Python scripts and datasets used to reconstruct the natural streamflow of the Colorado River using multiple statistical and machine-learning approaches. The reconstruction is based on paleoclimate tree-ring proxy data. In addition, the repository implements a Gaussian Process–based framework to generate probabilistic decadal streamflow predictions for the Colorado River, with an emphasis on low-frequency variability and long-term persistence. 
 
 
 ---
 
 ##  Overview
 
-Three different approaches were applied to reconstruct annual streamflow using tree-ring chronologies and principal components:
+Four different approaches were applied to reconstruct annual streamflow using tree-ring chronologies and principal components:
 
 1. **Stepwise Linear Regression** – baseline statistical reconstruction.
-2. **K-Nearest Neighbors (KNN)** – non-parametric method for capturing local relationships.
-3. **Neural Network (NN)** – nonlinear approach for improved pattern recognition.
+2. **PCA Regression** - Dimenstion reduction regression
+3. **K-Nearest Neighbors (KNN)** – non-parametric method for capturing local relationships.
+4. **Neural Network (NN)** – nonlinear approach for improved pattern recognition.
+   
 
 Each method produces a complete time series reconstruction from **1490 to 1995**.
 
@@ -31,16 +33,4 @@ Each method produces a complete time series reconstruction from **1490 to 1995**
 
 ---
 
-##  File List
 
-| File | Description |
-|------|--------------|
-| `mtm_spectrum.py` | Full multitaper spectral analysis with AR(1) red-noise significance test |
-| `mtm_loglog_psd.py` | Computes log–log MTM spectrum and fits β slope |
-| `stepwise_reconstruction.py` | Stepwise linear regression model for streamflow reconstruction |
-| `knn_reconstruction.py` | K-Nearest Neighbor reconstruction with PCA inputs |
-| `neural_network_reconstruction.py` | Neural network model for nonlinear streamflow reconstruction |
-| `gaussian_process_reconstruction.py` | Gaussian Process regression model for uncertainty analysis |
-| `reconstructed_streamflow.xlsx` | Data file containing annual reconstructed flows (1490–1997) |
-
----
